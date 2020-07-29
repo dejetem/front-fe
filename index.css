@@ -1,0 +1,106 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%)}; 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    display: flex;
+    padding: 30px 4px;
+}
+.div div {
+    flex: 100%;
+    max-width: 100%;
+    padding: 30px 4px;
+    padding-left: 7rem;
+    height: 88%;
+    background-color: oldlace;
+}
+#icon {
+    padding: 10px;
+    float: right;
+}
+#btn{
+    float: right;
+    margin-right: 1rem;
+    border-radius: 20px;
+    background-color: hsl(217, 19%, 35%);
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding-top: 7rem;
+    float: left;
+}
+p {
+    padding-left: 4rem;
+    padding-top: 6.5rem;
+}
+#s{
+    margin-left: 1rem;
+    color: #fefefe;
+    font-size: 1.5rem;
+}
+.modal-content {
+  position: relative;
+  border-radius: 10px;
+  border: 2px solid  #fefefe;;
+  width: 210px;
+  padding: 5px;
+  float: right;
+  background-color: hsl(217, 19%, 35%);
+}
+
+.close {
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    #text-img {
+        max-width: 100%;
+    }
+    .bg {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    #photo{
+        margin-top: 8px;
+        width: 100%;
+        padding: 10px;
+    }
+    .div div {
+        flex: 25%;
+        width: 25%;
+        padding: 0 4px;
+        background-color: oldlace;
+    }
+    p {
+        padding-left: 4rem;
+        padding-top: 2.5rem;
+    }
+    .avatar {
+        padding-top: 3rem;
+        float: left;
+    }
+    .modal-content {
+      background-color: hsl(217, 19%, 35%);
+      position: absolute;
+      border-radius: 5px;
+      border: 2px solid  #fefefe;;
+      width: 330px;
+      margin-bottom: 3rem;
+    }
+    #s{
+     margin-left: 1rem;
+     color: #fefefe;
+     font-size: 1.5rem;
+    }
+}
